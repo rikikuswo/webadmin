@@ -30,19 +30,19 @@
               </div>
               <div class="search-item">
                 <a href="#">
-                  <img class="mr-3 rounded" width="30" src="{{url('assets/img/products/product-3-50.png')}}" alt="product">
+                  <img class="mr-3 rounded" width="30" src="{{url('webadmin/assets/img/products/product-3-50.png')}}" alt="product">
                   oPhone S9 Limited Edition
                 </a>
               </div>
               <div class="search-item">
                 <a href="#">
-                  <img class="mr-3 rounded" width="30" src="{{url('assets/img/products/product-2-50.png')}}" alt="product">
+                  <img class="mr-3 rounded" width="30" src="{{url('webadmin/assets/img/products/product-2-50.png')}}" alt="product">
                   Drone X2 New Gen-7
                 </a>
               </div>
               <div class="search-item">
                 <a href="#">
-                  <img class="mr-3 rounded" width="30" src="{{url('assets/img/products/product-1-50.png')}}" alt="product">
+                  <img class="mr-3 rounded" width="30" src="{{url('webadmin/assets/img/products/product-1-50.png')}}" alt="product">
                   Headphone Blitz
                 </a>
               </div>
@@ -79,7 +79,7 @@
               <div class="dropdown-list-content dropdown-list-message">
                 <a href="#" class="dropdown-item dropdown-item-unread">
                   <div class="dropdown-item-avatar">
-                    <img alt="image" src="{{url('assets/img/avatar/avatar-1.png')}}" class="rounded-circle">
+                    <img alt="image" src="{{url('webadmin/assets/img/avatar/avatar-1.png')}}" class="rounded-circle">
                     <div class="is-online"></div>
                   </div>
                   <div class="dropdown-item-desc">
@@ -90,7 +90,7 @@
                 </a>
                 <a href="#" class="dropdown-item dropdown-item-unread">
                   <div class="dropdown-item-avatar">
-                    <img alt="image" src="{{url('assets/img/avatar/avatar-2.png')}}" class="rounded-circle">
+                    <img alt="image" src="{{url('webadmin/assets/img/avatar/avatar-2.png')}}" class="rounded-circle">
                   </div>
                   <div class="dropdown-item-desc">
                     <b>Dedik Sugiharto</b>
@@ -100,7 +100,7 @@
                 </a>
                 <a href="#" class="dropdown-item dropdown-item-unread">
                   <div class="dropdown-item-avatar">
-                    <img alt="image" src="{{url('assets/img/avatar/avatar-3.png')}}" class="rounded-circle">
+                    <img alt="image" src="{{url('webadmin/assets/img/avatar/avatar-3.png')}}" class="rounded-circle">
                     <div class="is-online"></div>
                   </div>
                   <div class="dropdown-item-desc">
@@ -111,7 +111,7 @@
                 </a>
                 <a href="#" class="dropdown-item">
                   <div class="dropdown-item-avatar">
-                    <img alt="image" src="{{url('assets/img/avatar/avatar-4.png')}}" class="rounded-circle">
+                    <img alt="image" src="{{url('webadmin/assets/img/avatar/avatar-4.png')}}" class="rounded-circle">
                   </div>
                   <div class="dropdown-item-desc">
                     <b>Ardian Rahardiansyah</b>
@@ -121,7 +121,7 @@
                 </a>
                 <a href="#" class="dropdown-item">
                   <div class="dropdown-item-avatar">
-                    <img alt="image" src="{{url('assets/img/avatar/avatar-5.png')}}" class="rounded-circle">
+                    <img alt="image" src="{{url('webadmin/assets/img/avatar/avatar-5.png')}}" class="rounded-circle">
                   </div>
                   <div class="dropdown-item-desc">
                     <b>Alfa Zulkarnain</b>
@@ -209,7 +209,7 @@
                 <i class="fas fa-cog"></i> Settings
               </a>
               <div class="dropdown-divider"></div>
-              <a href="{{ ('/logout') }}" class="dropdown-item has-icon text-danger">
+              <a href="{{ ('/webadmin/logout') }}" class="dropdown-item has-icon text-danger">
                 <i class="fas fa-sign-out-alt"></i> Logout
               </a>
             </div>

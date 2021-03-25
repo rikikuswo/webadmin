@@ -36,19 +36,19 @@ class Login extends Controller
                 Session::put('profil_pict', $profil);
                 Session::put('is_login', TRUE);
 
-                return redirect('/dashboard');
+                return redirect('/webadmin/dash');
             } else {
-                return redirect('/')->with('alert', 'Wrong Password!');
+                return redirect('/webadmin')->with('alert', 'Wrong Password!');
             }
         } else {
-            return redirect('/')->with('alert', 'User is not valid!');
+            return redirect('/webadmin')->with('alert', 'User is not valid!');
         }
     }
 
     public function dashboard()
     {
         if (!Session::get('is_login')) {
-            return redirect('/')->with('alert', 'Please login first!');
+            return redirect('/webadmin')->with('alert', 'Please login first!');
         }
         return view('dashboard');
     }
@@ -56,6 +56,6 @@ class Login extends Controller
     public function logout()
     {
         Session::flush();
-        return redirect('/')->with('alert', 'Already logout!');
+        return redirect('/webadmin')->with('alert', 'Already logout!');
     }
 }

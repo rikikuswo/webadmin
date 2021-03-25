@@ -18,9 +18,10 @@ use App\Http\Controllers\Login;
 //     return view('welcome');
 // });
 
-Route::post('/login', [Login::class, 'login']);
-Route::get('/logout', [Login::class, 'logout']);
+Route::post('/webadmin/login', [Login::class, 'login']);
+Route::get('/webadmin/logout', [Login::class, 'logout']);
+Route::get('/', [Login::class, 'index']);
 Route::group(['middleware' => 'prevent-back-history'], function () {
-    Route::get('/', [Login::class, 'index']);
-    Route::get('/dashboard', [Login::class, 'dashboard']);
+
+    Route::get('/webadmin/dash', [Login::class, 'dashboard']);
 });
